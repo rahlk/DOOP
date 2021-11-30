@@ -19,4 +19,4 @@ if command -v 'tput' &> /dev/null
 then
     export COLUMNS=`tput cols`
 fi
-eval "./gradlew :run -Pargs=\"$ARGS\""
+eval "gradle :run -Pargs=\"$ARGS\""
